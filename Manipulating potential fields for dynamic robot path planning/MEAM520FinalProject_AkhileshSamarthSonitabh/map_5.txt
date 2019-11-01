@@ -1,0 +1,23 @@
+# Narrow passage map
+#Boundary (This parameter does not affect the visualization)
+boundary -469.9000 -469.9000 -355.6000  469.9000  469.9000   584.2000
+#############################################################
+
+# usage:
+# element x_min y_min z_min x_max y_max z_max
+#NOTE: DEFINE YOUR MEASUREMNETS IN mm
+
+#Inverted u design 
+block   90  -1   0 151  1 1
+block  90  -1   50 151  1 51
+block  90  -1   100 151  1 101
+block  90  -1   150 151  1 151
+block  90  -1   200 151  1 201
+block  90  -1   250 151  1 251
+block  90  -1   300 151  1 301
+block  90  -1   350 151  1 351
+block  90  -1   400 151  1 401
+block  90  50   400 151  51 401
+block  90  100   400 151  101 401
+block  90  150   400 151  151 401
+block  90  200   400 151  201 401

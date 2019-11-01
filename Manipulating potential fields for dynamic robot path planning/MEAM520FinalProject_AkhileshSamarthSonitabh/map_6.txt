@@ -1,0 +1,20 @@
+#Boundary (This parameter does not affect the visualization)
+boundary -469.9000 -469.9000 -355.6000  469.9000  469.9000   584.2000
+#############################################################
+
+# usage:
+# element x_min y_min z_min x_max y_max z_max
+#NOTE: DEFINE YOUR MEASUREMNETS IN mm
+
+#Inverted u design 
+block 150 -160 0 170 -140 20
+block 150 -100 0 170 -80 20 
+block 150 -40 0 170 -20 20
+block 150 20 0 170 40 20
+block 150 80 0 170 100 20
+block 150 140 0 170 160 20
+
+
+block 50 -200 -72 300 200 -70 
+block 205 -200 -42 220 200 100
+block 100 -200 -42 115 200 40
